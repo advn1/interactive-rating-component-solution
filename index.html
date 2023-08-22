@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Rating App</title>
+
+</head>
+<body>
+  <div class="component">
+    <div class="star">
+      <img src="./images/icon-star.svg" alt="" class="star-img">
+    </div>
+    <div class="text">
+      <div class="bold"><p>How did we do?</p></div>
+      <div class="main-text"><p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p></div>
+    </div>
+    <div class="buttons">
+      <button onclick="btnOnClick('btn-1')" class="button btn-1"><p>1</p></button>
+      <button onclick="btnOnClick('btn-2')" class="button btn-2"><p>2</p></button>
+      <button onclick="btnOnClick('btn-3')" class="button btn-3"><p>3</p></button>
+      <button onclick="btnOnClick('btn-4')" class="button btn-4"><p>4</p></button>
+      <button onclick="btnOnClick('btn-5')" class="button btn-5"><p>5</p></button>
+    </div>
+    <div class="submit">
+      <button onclick="onClickSubmit()" class="btn-submit"><p>S U B M I T</p></button>
+    </div>
+  </div>
+  <p class="number"hidden="true">5</p>
+  <template>
+    <div class="ty-component">
+      <div class="img-content">
+        <img src="./images/illustration-thank-you.svg" alt="" class="some-img">
+      </div>
+      <div class="add-info">
+        <p class="selected">You selected 4 out of 5</p>
+      </div>
+      <div class="text-ty">
+        <div class="title"><p>Thank you!</p></div>
+        <div class="main-text-ty"><p>We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p></div>
+      </div>
+    </div>
+  </template>
+  <script src="./index.js"></script>
+</body>
+</html>

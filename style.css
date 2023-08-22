@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+
+.component {
+    width: 375px;
+    margin: 100px auto;
+    border-radius: 5%;
+    
+    background-color: hsl(213, 19%, 18%)
+}
+
+.star {
+    padding: 25px;
+}
+
+.star-img {
+    border-radius: 100%;
+    background-color: hsl(213, 20%, 29%);
+    padding: 10px;
+}
+
+.text {
+    margin-bottom: 25px;
+}
+
+.bold p {
+    padding: 0 0 0 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.35rem;
+}
+
+.main-text p {
+    padding: 0 25px 0 25px;
+    color: hsl(217, 12%, 63%);
+    font-size: 0.8rem;
+}
+
+.buttons {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.button {
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 20%, 29%);
+    transition: 0.2s;
+}
+
+.btn-5 {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit {
+    padding: 12px 0 12px 0;
+    width: 85%;
+    border-radius: 1000px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    margin-bottom: 30px;
+    transition: 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transform: scale(1.05);
+}
+
+.ty-component {
+    width: 365px;
+    margin: 100px auto;
+    border-radius: 5%;
+    
+    background-color: hsl(217, 16%, 15%);
+}
+
+.img-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.add-info {
+    display: flex;
+    justify-content: center;
+}
+
+.add-info p {
+    border-radius: 1000px;
+    background-color:hsl(215, 20%, 22%);
+    color: hsl(25, 97%, 53%);
+    padding: 7px 11px 7px 11px;
+}
+
+.text-ty {
+    padding: 20px;
+}
+
+.main-text-ty {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.title p {
+    text-align: center;
+    color: white;
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.main-text-ty p {
+    text-align: center;
+    margin-bottom: 35px;
+    color: white;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+
+
+
+@media (min-width: 576px) {
+    .component {
+        width: 410px;
+    }
+
+    .ty-component {
+        width: 380px;
+    }
+}
+
